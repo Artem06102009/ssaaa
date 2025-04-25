@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.9.0/css/all.min.css"
+    integrity="sha512-q3eWabyZPc1XTCmF+8/LuE1ozpg5xxn7iO89yfSOd5/oKvyqLngoNGsx8jq92Y8eXJ/IRxQbEC+FGSYxtk2oiw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="styles.css">
+  <title>ChemQuest</title>
+</head>
+
+<body>
+  <nav class="navbar" role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="index.html">
+        <img src="images/logo2.png" />
+      </a>
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+    <div id="navbarBasicExample" class="navbar-menu">
+      <div class="navbar-start">
+        <a class="navbar-item" href="index.html">Главная</a>
+        <a class="navbar-item" href="game.html">Играть</a>
+        <a class="navbar-item" href="top.html">Рейтинг</a>
+        <a class="navbar-item" href="table.html">Таблица Менделеева</a>
+      </div>
+
+      <div class="navbar-end">
+        <div class="navbar-item">
+          <div class="buttons">
+            <a class="button is-primary" href="sign-up.html"><strong>Регистрация</strong></a>
+            <a class="button is-light" href="login.html">Войти</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="container is-flex is-align-items-center is-justify-content-center main-index-container">
+
+    <div class="game-game container is-max-desktop columns box pl-0" style="margin-top: -150px;">
+
+      <div class="game-options column is-4 px-5">
+        <h1 class="title is-2 has-text-centered">Настройки</h1>
+        <div class="tabs is-toggle ">
+          <ul>
+            <li class="is-size-7 is-flex-grow-1"><a>На время</a></li>
+            <li class="is-size-7 is-flex-grow-1"><a>На количество</a></li>
+          </ul>
+        </div>
+        <div class="select is-small custom-select">
+          <select>
+            <option>Формула - название</option>
+            <option>Название - формула</option>
+            <option>Валентность</option>
+            <option>Степень окисления</option>
+            <option>Типы химической связи</option>
+            <option>Атомная масса</option>
+            <option>Окислители и восстановители</option>
+            <option>Физические и химические явления</option>
+            <option>Типы химических реакций</option>
+          </select>
+        </div>
+        <div class="game-option-btn"><button id="startButton"
+            class="button is-primary is-medium is-rounded">Старт</button></div>
+      </div>
+      <div class="game-block column is-8">
+        <div class="timer">
+          <div id="time">00:00</div>
+        </div>
+        <div>
+          <p class="z">Какова массовая доля NaOH в растворе, полученном при растворении 4г NaOH в 46г воды?</p>
+          <div class="radios">
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              H
+            </label>
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              C
+            </label>
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              Mg
+            </label>
+            <label class="radio">
+              <input type="radio" name="rsvp">
+              I
+            </label>
+          </div>
+          <div class="btn-2"><a href="#" class="button is-primary is-medium is-rounded">Ответить</a></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+
+
+<!-- <div class="tabs is-toggle">
+          <ul>
+            <li class="is-size-7"><a>Таймер</a></li>
+            <li class="is-size-7"><a>Количество заданий</a></li>
+          </ul>
+        </div> -->
+<!-- <div class="tabs is-toggle">
+          <ul>
+            <li class="is-size-7"><a>Формула - название</a></li>
+            <li class="is-size-7"><a>Название - формула</a></li>
+            
+          </ul>
+        </div> -->
+<!-- <div class="tabs is-toggle">
+          <ul>
+            <li class="is-size-7"><a>Ввод</a></li>
+            <li class="is-size-7 block"><a>Выбор</a></li>
+          </ul>
+        </div> -->

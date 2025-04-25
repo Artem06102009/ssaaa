@@ -1,0 +1,157 @@
+:root {
+    --fz: calc(1vw + 1vh);
+}
+
+.image {
+    width: 120px;
+}
+
+
+/* span {
+    /* background: #000; */
+/* font-size: calc(0.8 * var(--fz));} */
+
+.main-index-container {
+    min-height: calc(100vh - 56px);
+}
+
+
+.game-block {
+    border-left: 2px dashed rgb(217, 217, 217);
+}
+
+
+.settings,
+.timer {
+    text-align: center;
+    margin: 5px;
+}
+
+#time {
+    font-size: 32px;
+}
+
+
+body {
+    min-height: 100vh;
+    background-size: 400px 400px;
+    background-image: url("images/pf.jpg");
+}
+
+
+.main-page-content {
+    background-color: #ffffffc3;
+    padding: 70px 120px;
+    border-radius: 30px;
+    text-align: center;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.284);
+    transition: all 0.5s ease;
+}
+
+.main-page-content:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.284);
+}
+
+.game-game {
+    height: 350px;
+}
+
+.game-option-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+/* 
+.game-options {
+
+} */
+
+.game-option-btn>button {
+    width: 100%;
+}
+
+.z  {
+    text-align: center;
+    font-size: 24px;
+}
+
+.radios {
+    justify-content: center;
+    font-size: 24px;
+    padding: 20px;
+}
+
+.btn-2 {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+table,
+td,
+th {
+    border-collapse: collapse;
+    border: 2px solid #b6a9a9;
+}
+
+.form-container {
+    background-color: #ffffffc3;
+    padding: 30px 60px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.284);
+    transition: all 0.5s ease;
+}
+
+.form-container:hover {
+    box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.284);
+}
+
+.custom-select {
+    width: 100%;
+
+}
+
+.custom-select>select {
+    width: 100%;
+}
+
+
+.table {
+    width: 50%;
+    margin: 0 auto;
+}
+
+/* .separator {
+    height: 20px;
+    background-color: #ddd;
+    margin: 10px 0;
+} */
+
+.rating-settings {
+    display: flex;
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fffffff1;
+    padding: 10px;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.custom-select-rating>select {
+    width: 100%;
+}
+
+.tabs>ul {
+    width: 100%;
+}
+
+.tabs>ul>li {
+    width: 50%;
+}
+
+.rating-settings>div {
+    width: 48%;
+}
